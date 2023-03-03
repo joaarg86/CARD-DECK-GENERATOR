@@ -4,23 +4,6 @@ import "./style.css";
 import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
-/*function generateCard() {}*/
-/* document.querySelector(".card").classList.add("generateRandomSuit");
-  document.querySelector(".card").innerHTML.add("generateRandomNumbers");
-
-  let generateRandomNumbers = () => {
-    let numbers = ["8", "3", "7", "9", "6", "4", "A", "5", "K", "Q", "2", "J"];
-    let indexNumbers = Math.floor(Math.random() * numbers.length);
-    return numbers[indexNumbers];
-  };
-  let generateRandomSuit = () => {
-    let suit = ["♦", "♥", "♠", "♣"];
-    let indexSuit = Math.floor(Math.random() * suit.length);
-    return suit[indexSuit];
-  };
-};*/
-//document.getElementById().innerHTML = generateCard()
-
 function getSuit() {
   let suit = ["♦", "♥", "♠", "♣"];
   let suIndex = Math.floor(Math.random() * suit.length);
@@ -57,7 +40,4 @@ window.onload = () => {
     document.getElementById("bottom-suit").classList.add("red");
     document.getElementById("number").classList.add("red");
   }
-
-  // let result;
-  // " " + suit[suIndex] + " " + number[numIndex];
 };
